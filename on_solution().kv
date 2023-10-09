@@ -1,0 +1,6 @@
+def on_solution(self, instance):
+    text = self.solution.text
+
+    if text:
+        solution = str(eval(text))
+        self.solution.text = solution
